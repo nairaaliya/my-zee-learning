@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zee Learn</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .logo_name {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .navigation {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .navigation a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .about,
+        .test,
+        .courses,
+        .feed,
+        .contact {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .section-content {
+            margin-bottom: 30px;
+        }
+
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="logo_name">Zee Learn</h1>
+            <div class="navigation">
+                <a href="#">Home</a>
+                <a href="#">Courses</a>
+                <a href="#">Others</a>
+                <a href="#">User Feedback</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p class="section-content">
+                This project involves establishing an online learning platform to offer high quality educational content and interactive courses to a global audience. The project aims to provide accessible and affordable learning opportunities for individuals seeking to acquire new skills to enhance their knowledge and advance their careers.
+            </p>
+            <img src="image.jpg" alt="About Us" class="section-image">
+        </div>
+    </div>
+
+    <div class="test">
+        <div class="container">
+            <h2 class="section-title">Tests & Assignments</h2>
+            <p class="section-content">
+                This section is dedicated to tests, assignments, and results.
+            </p>
+            <img src="photo.jpg" alt="Tests & Assignments" class="section-image">
+        </div>
+    </div>
+
+    <div class="courses">
+        <div class="container">
+            <h2 class="section-title">Courses</h2>
+            <p class="section-content">
+                Choose from a wide range of courses tailored to your needs.
+            </p>
+            <img src="image2.jpg" alt="Courses" class="section-image">
+        </div>
+    </div>
+
+    <div class="feed">
+        <div class="container">
+            <h2 class="section-title">User Feedback</h2>
+            <p class="section-content">
+                Many students have appreciated us for the good work done and encourage us to post more tutorials. We are working with many professionals to make it possible.
+            </p>
+            <img src="photo3.jpg" alt="User Feedback" class="section-image">
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-content">
+                For inquiries, contact us at 0784139213 or email us at zeelearn@gmail.com.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2024 Zee Learn</p>
+        </div>
+    </div>
+</body>
+</html>
